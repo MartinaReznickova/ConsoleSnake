@@ -25,6 +25,7 @@ namespace ConsoleSnake
         public void VypsatMoznosti()
         {
             Console.SetCursorPosition(0, this.SetCursorPositionTop);
+            Console.CursorVisible = false;
             Console.ForegroundColor = ConsoleColor.White;
 
             foreach (string s in moznosti)
@@ -45,6 +46,8 @@ namespace ConsoleSnake
         {
             Console.SetCursorPosition(0, this.SetCursorPositionTop);
             Console.CursorVisible = false;
+            Console.ForegroundColor = ConsoleColor.Black;
+
 
             while (this.menuJeSpustene == true)
             {
@@ -52,7 +55,12 @@ namespace ConsoleSnake
                 {
                     ConsoleKeyInfo klavesa = Console.ReadKey();
 
-                    if (klavesa.Key == ConsoleKey.DownArrow)
+                    if (klavesa.Key != ConsoleKey.DownArrow && klavesa.Key != ConsoleKey.UpArrow && klavesa.Key != ConsoleKey.RightArrow && klavesa.Key != ConsoleKey.LeftArrow && klavesa.Key != ConsoleKey.Enter)
+                    {
+                        this.VypsatMoznosti();
+                    }
+
+                    else if (klavesa.Key == ConsoleKey.DownArrow)
                     {
                         Console.Beep(beepFrequency, 80);
                         this.indexMoznosti++;
