@@ -7,7 +7,7 @@ using static System.Formats.Asn1.AsnWriter;
 
 namespace ConsoleSnake
 {
-    class AbstractObrazovka
+    class Obrazovka
     {
         public void SnakeNapisVykreslit()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleSnake
 {
-    class GameOverObrazovka : AbstractObrazovka
+    class GameOverObrazovka : Obrazovka
     {
         private Hra hra;
 

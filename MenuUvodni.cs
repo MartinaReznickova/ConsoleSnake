@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleSnake
 {
-    class MenuUvodni : AbstractObrazovka
+    class MenuUvodni : Obrazovka
     {
         protected string[] moznosti;
         protected int indexMoznosti = 0;

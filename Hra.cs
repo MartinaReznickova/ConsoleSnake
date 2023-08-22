@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleSnake
 {
-    class Hra : AbstractObrazovka
+    class Hra : Obrazovka
     {
         public int Score { get; set; }
 

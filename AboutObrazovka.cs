@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleSnake
 {
-    class AboutObrazovka : AbstractObrazovka
+    class AboutObrazovka : Obrazovka
     {
         private string popis;
         private MenuUvodni menu;

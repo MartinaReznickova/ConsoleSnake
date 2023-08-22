@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleSnake
 {
-    internal class NastaveniRychlostiObrazovka : AbstractObrazovka
+    internal class NastaveniRychlostiObrazovka : Obrazovka
     {
         private int indexMoznosti = 0;
         public int indexVybraneRychlosti = GlobalRychlostHada.IndexRychlosti();
