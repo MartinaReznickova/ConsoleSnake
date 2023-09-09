@@ -3,10 +3,15 @@ Jeden z mých prvních "větších" projektů v C#. Klasická arkádová hra the
 
 EN: One of my first "bigger" projects in C#. Classic arcade game the Snake controlled by arrows with opening and closing screens and background music supported on Windows OS.
 
-# What I learned
-U tohoto projektu jsem se těžce poučila, že u větších projektů je důležité si nejprve program dobře navrhnout a promyslet. :sweat_smile: V opačném případě přijde moment, kdy jakákoliv malá změna v programu znamená pro programátora přepisování a upravování zdrojového kódu neúměrné velikosti změny.
+# Mistakes/Failures
+Tento projekt byl zpočátku jen můj pokus o vytvoření jednoduché obrazovky s pohybujícím se "hadem", a protože to neměl být žádný velký projekt, neměla jsem tento program dopředu dobře promyšlený, a tak v samotném návrhu vidím prostor pro zlepšení. :sweat_smile: Další chybou je pak používání třídy AbstractObrazovka, jakoby se jednalo o abstrakní třídu (nevytvářím z ní instance, dědičnost...), aniž by tato třída byla jako abstrakní označená a aniž by měla alespoň jednu virtuální metodu.
 
-EN: During programming this game I learned the hard way that for larger projects, it is very important to design and think through the program first. :sweat_smile: Otherwise, there will come a moment when any small change in the program means rewriting and modifying the source code a lot more than if the desing of the system was made before programming itself.
+EN: This project was initially just my attempt to create a simple screen with a moving "snake," and because it wasn't supposed to be a big project, I didn't plan this program well in advance. So, in the design itself, I see room for improvement. 😅 Another mistake is using the AbstractScreen class as if it were an abstract class (I'm not creating instances from it, no inheritance...), without this class being marked as abstract and without it having at least one virtual method.
+
+# Challenges
+Asi největší challenge pro mě bylo vytvořit plynulou konzolovou aplikaci, která neustále neproblikává což se i nakonec nakonec povedlo a v tomto ohledu jsem s výsledkem spokojená.:muscle:
+
+EN: The biggest challenge for me was to create a smooth console application that doesn't constantly flicker, and I must say that I'm satisfied with the outcome. 💪
 
 # Screenshots
 ![SnakeUvodniMenu](https://github.com/MartinaReznickova/ConsoleSnake/assets/139158101/75ba6668-dd17-4309-a611-9f00b6f8825a)
