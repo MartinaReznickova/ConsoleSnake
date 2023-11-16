@@ -9,7 +9,7 @@ Tento projekt byl zpočátku jen můj pokus o vytvoření jednoduché obrazovky 
 EN: This project was initially just my attempt to create a simple screen with a moving "snake," and because it wasn't supposed to be a big project, I didn't plan this program well in advance. So, in the design itself, I see room for improvement. 😅 Another mistake is using the AbstractScreen class as if it were an abstract class (I'm not creating instances from it, no inheritance...), without this class being marked as abstract and without it having at least one virtual method.
 
 # Challenges
-Asi největší challenge pro mě bylo vytvořit plynulou konzolovou aplikaci, která neustále neproblikává což se i nakonec nakonec povedlo a v tomto ohledu jsem s výsledkem spokojená.:muscle:
+Asi největší challenge pro mě bylo vytvořit plynulou konzolovou aplikaci, která neustále neproblikává což se mi nakonec i povedlo a v tomto ohledu jsem s výsledkem spokojená.:muscle:
 
 EN: The biggest challenge for me was to create a smooth console application that doesn't constantly flicker, and I must say that I'm satisfied with the outcome. 💪
 
